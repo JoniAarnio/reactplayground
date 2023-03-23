@@ -1,3 +1,7 @@
+
+A small website with varying little widgets and gadgets and whatnot. Just trying out React and what it can do. That sort of thing. Practice!
+
+
 ## Project setup
 ```
 npm install
