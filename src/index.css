@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  display: inline-block;
+  margin-right: 4px;
+  border-radius: 5px;
+}
+
+.explanation {
+  color:rgb(89, 185, 76);
+}
+
+/* Gridin ääriviivat */
+.gridMiddle {
+  border-style: hidden solid solid solid;
+}
+
+.gridSide {
+  border-style: hidden hidden solid hidden;
+}
+
+
+
+/* Form.jsx komponentin tyylejä */
+.inputForm--text[type="text"], .inputForm--email[type="email"] {
+  margin-bottom: 15px;
+  height: 30px;
+  text-indent: 10px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  display: block;
+}
+
+.inputForm[type="checkbox"], .inputSignup--checkbox {
+  margin-right: 0.75rem;
+}
+
+.inputForm--textarea {
+  margin-bottom: 15px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  display: block;
+  
+}
+
+/* Signup.jsx komponentin tyylejä */
+.formSignup {
+    background-color: white;
+    padding: 5%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.75);
+}
+
+.inputSignup--email, .inputSignup--password {
+  margin-bottom: 15px;
+  height:30px;
+  text-indent: 10px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  display:block;
+}
+
+.inputSignup--submit {
+  width: 25%;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: #639;
+  border: none;   
+  cursor: pointer; 
+}
+
+.inputSignup--marketing {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+}
