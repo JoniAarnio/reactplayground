@@ -3,16 +3,6 @@ import React from 'react'
 export default function Api(props) {
     const [swData, setSWData] = React.useState({})
     const [count, setCount] = React.useState(1)
-    
-    /**
-     * Quiz:
-     * 1. What will happen if I put back our Star Wars API call
-     *    into the effect function?
-     * 2. How will the useEffect be different if I use 
-     *    setStarWarsData() instead of console.log()
-     */
-
-    // "https://swapi.dev/api/people/1"
 
     React.useEffect(function() {
         fetch(`https://swapi.dev/api/people/${count}`)
